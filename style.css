@@ -1,0 +1,33 @@
+
+.text {
+	display: block;
+	width: 620px;
+	height: 50px;
+	color: #505050;
+	font-size: 14px;
+	padding-top: 10px;
+}
+.countdown {
+	display: block;
+	position: absolute;
+	left: 2%;
+	margin-top:0px;
+}
+#cntdwn b {
+	font-size: 35px;
+}
+.days, .hours, .minutes, .seconds {
+	position: relative;
+	top: 20px;
+	left: -45px
+}
+.minutes {
+	left: -48px
+}
+.seconds {
+	left: -60px
+}
+.sec-number {
+	position: relative;
+	left: -13px
+}
